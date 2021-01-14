@@ -1,0 +1,55 @@
+header {
+  background: $cor-primary;
+  padding: 25px;
+
+  form {
+    input[type="text"] {
+      background: $branco;
+      width: 100%;
+      border: none;
+      border-radius: 100px;
+      padding: 10px 20px;
+    }
+
+    button {
+      background: none;
+      border: none;
+      position: absolute;
+      right: 25px;
+    }
+  }
+
+  ul {
+    li {
+      position: relative;
+      span.notifications {
+        color: $branco;
+        background: $rosa;
+
+        position: absolute;
+        top: -10px;
+        // left: 5px;
+
+        font-size: 10px;
+        width: 15px;
+        height: 15px;
+
+        border-radius: 100%;
+      }
+
+      a {
+        font-size: 16px;
+        font-weight: bold;
+        color: $cor-secundaria;
+
+        svg {
+          font-size: 23px;
+        }
+
+        &:hover {
+          color: initial;
+        }
+      }
+    }
+  }
+}
